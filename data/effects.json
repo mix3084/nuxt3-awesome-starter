@@ -1,0 +1,32 @@
+{
+	"effects": {
+		"max_hp": {
+			"name_key": "max_hp_name",
+			"value": "+50",
+			"duration": "5 minutes",
+			"image_key": "shield_with_plus"
+		},
+		"mining_speed": {
+			"name_key": "mining_speed_name",
+			"value": "+10%",
+			"duration": "5 minutes",
+			"image_key": "pickaxe"
+		},
+		"max_stamina": {
+			"name_key": "max_stamina_name",
+			"value": "+40",
+			"duration": "5 minutes",
+			"image_key": "running_person"
+		}
+	},
+	"image_categories": {
+		"running_person": "Человек бежит",
+		"knife": "Нож",
+		"shield_with_plus": "Щит с плюсом",
+		"star": "Звезда",
+		"virus": "Вирус",
+		"axe": "Топор",
+		"energy_with_plus": "Энергия с плюсом",
+		"stomach_with_plus": "Желудок с плюсом"
+	}
+}

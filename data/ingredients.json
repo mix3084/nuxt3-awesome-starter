@@ -1,0 +1,220 @@
+{
+	"common_ingredients": [
+		{
+			"name_key": "peppercorn",
+			"image": "path_to_image",
+			"description_key": "peppercorn_description",
+			"how_to_obtain_key": "peppercorn_how_to_obtain"
+		},
+		{
+			"name_key": "potato",
+			"image": "path_to_image",
+			"description_key": "potato_description",
+			"how_to_obtain_key": "potato_how_to_obtain"
+		},
+		{
+			"name_key": "corn_oil",
+			"image": "path_to_image",
+			"description_key": "corn_oil_description",
+			"how_to_obtain_key": "corn_oil_how_to_obtain"
+		}
+	],
+	"meat": [
+		{
+			"name_key": "beast_meat",
+			"image": "path_to_image",
+			"description_key": "beast_meat_description",
+			"how_to_obtain_key": "beast_meat_how_to_obtain",
+			"category_key": "meat_category",
+			"effect_key": "no_effect"
+		},
+		{
+			"name_key": "pork",
+			"image": "path_to_image",
+			"description_key": "pork_description",
+			"how_to_obtain_key": "pork_how_to_obtain",
+			"category_key": "meat_category",
+			"effect_key": "max_hp_50"
+		},
+		{
+			"name_key": "rabbit",
+			"image": "path_to_image",
+			"description_key": "rabbit_description",
+			"how_to_obtain_key": "rabbit_how_to_obtain",
+			"category_key": "meat_category",
+			"effect_key": "max_stamina_40"
+		},
+		{
+			"name_key": "goat",
+			"image": "path_to_image",
+			"description_key": "goat_description",
+			"how_to_obtain_key": "goat_how_to_obtain",
+			"category_key": "meat_category",
+			"effect_key": "restores_hp_slowly"
+		},
+		{
+			"name_key": "bear",
+			"image": "path_to_image",
+			"description_key": "bear_description",
+			"how_to_obtain_key": "bear_how_to_obtain",
+			"category_key": "meat_category",
+			"effect_key": "max_hp_100"
+		},
+		{
+			"name_key": "crocodile",
+			"image": "path_to_image",
+			"description_key": "crocodile_description",
+			"how_to_obtain_key": "crocodile_how_to_obtain",
+			"category_key": "meat_category",
+			"effect_key": "pollution_resist_5"
+		},
+		{
+			"name_key": "turtle",
+			"image": "path_to_image",
+			"description_key": "turtle_description",
+			"how_to_obtain_key": "turtle_how_to_obtain",
+			"category_key": "meat_category",
+			"effect_key": "pollution_resist_10"
+		},
+		{
+			"name_key": "gummy",
+			"image": "path_to_image",
+			"description_key": "gummy_description",
+			"how_to_obtain_key": "gummy_how_to_obtain",
+			"category_key": "meat_category",
+			"effect_key": "max_stamina_25"
+		}
+	],
+	"plant_based": [
+		{
+			"name_key": "lotus",
+			"image": "path_to_image",
+			"description_key": "lotus_description",
+			"how_to_obtain_key": "lotus_how_to_obtain",
+			"category_key": "plant_based_category",
+			"effect_key": "dish_durability_20"
+		},
+		{
+			"name_key": "coneflower",
+			"image": "path_to_image",
+			"description_key": "coneflower_description",
+			"how_to_obtain_key": "coneflower_how_to_obtain",
+			"category_key": "plant_based_category",
+			"effect_key": "sanity_restoring_bonus"
+		},
+		{
+			"name_key": "honeysuckle",
+			"image": "path_to_image",
+			"description_key": "honeysuckle_description",
+			"how_to_obtain_key": "honeysuckle_how_to_obtain",
+			"category_key": "plant_based_category",
+			"effect_key": "hp_restoring_bonus"
+		},
+		{
+			"name_key": "bellflower",
+			"image": "path_to_image",
+			"description_key": "bellflower_description",
+			"how_to_obtain_key": "bellflower_how_to_obtain",
+			"category_key": "plant_based_category",
+			"effect_key": "dish_bonus_effect_10"
+		},
+		{
+			"name_key": "sage",
+			"image": "path_to_image",
+			"description_key": "sage_description",
+			"how_to_obtain_key": "sage_how_to_obtain",
+			"category_key": "plant_based_category",
+			"effect_key": "dish_bonus_effect_10"
+		},
+		{
+			"name_key": "scarlet_calamus",
+			"image": "path_to_image",
+			"description_key": "scarlet_calamus_description",
+			"how_to_obtain_key": "scarlet_calamus_how_to_obtain",
+			"category_key": "plant_based_category",
+			"effect_key": "sanity_restoring_bonus"
+		}
+	],
+	"fish": [
+		{
+			"name_key": "sunfish",
+			"image": "path_to_image",
+			"description_key": "sunfish_description",
+			"how_to_obtain_key": "sunfish_how_to_obtain",
+			"category_key": "fish_category",
+			"effect_key": "mining_speed_10"
+		},
+		{
+			"name_key": "bighead_carp",
+			"image": "path_to_image",
+			"description_key": "bighead_carp_description",
+			"how_to_obtain_key": "bighead_carp_how_to_obtain",
+			"category_key": "fish_category",
+			"effect_key": "logging_Speed_10"
+		},
+		{
+			"name_key": "carp",
+			"image": "path_to_image",
+			"description_key": "carp_description",
+			"how_to_obtain_key": "carp_how_to_obtain",
+			"category_key": "fish_category",
+			"effect_key": "load_10"
+		},
+		{
+			"name_key": "sucker_fish",
+			"image": "path_to_image",
+			"description_key": "sucker_fish_description",
+			"how_to_obtain_key": "sucker_fish_how_to_obtain",
+			"category_key": "fish_category",
+			"effect_key": "swim_speed_10"
+		},
+		{
+			"name_key": "tilapia",
+			"image": "path_to_image",
+			"description_key": "tilapia_description",
+			"how_to_obtain_key": "tilapia_how_to_obtain",
+			"category_key": "fish_category",
+			"effect_key": "mining_speed_15"
+		},
+		{
+			"name_key": "oscar_fish",
+			"image": "path_to_image",
+			"description_key": "oscar_fish_description",
+			"how_to_obtain_key": "oscar_fish_how_to_obtain",
+			"category_key": "fish_category",
+			"effect_key": "load_15"
+		},
+		{
+			"name_key": "arowana",
+			"image": "path_to_image",
+			"description_key": "arowana_description",
+			"how_to_obtain_key": "arowana_how_to_obtain",
+			"category_key": "fish_category",
+			"effect_key": "swim_speed_15"
+		},
+		{
+			"name_key": "angelfish",
+			"image": "path_to_image",
+			"description_key": "angelfish_description",
+			"how_to_obtain_key": "angelfish_how_to_obtain",
+			"category_key": "fish_category",
+			"effect_key": "critical_dmg_5"
+		},
+		{
+			"name_key": "pompano",
+			"image": "path_to_image",
+			"description_key": "pompano_description",
+			"how_to_obtain_key": "pompano_how_to_obtain",
+			"category_key": "fish_category",
+			"effect_key": "weakspot_dmg_5"
+		},
+		{
+			"name_key": "barracuda",
+			"image": "path_to_image",
+			"description_key": "barracuda_description",
+			"how_to_obtain_key": "barracuda_how_to_obtain",
+			"category_key": "fish_category",
+			"effect_key": "psi_intensity_5"
+		}
+	]
+}

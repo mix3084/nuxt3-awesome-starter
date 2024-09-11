@@ -1,18 +1,17 @@
 [![Alpine](./assets/images/banner.png)](https://nuxt3-awesome-starter.vercel.app/)
 
 # Nuxt 3 Awesome Starter
+
 ![npm](https://img.shields.io/npm/v/%40nuxt-awesome%2Ftheme)
 ![NPM](https://img.shields.io/npm/l/%40nuxt-awesome%2Ftheme)
 ![npm](https://img.shields.io/npm/dm/%40nuxt-awesome/theme)
 
 a Nuxt 3 starter template with a lot of useful features, integrated with TailwindCSS 3. Easy use and implemented in Nuxt Layer, you can extend this template with zero config.  
-Nuxt Awesome Starter v2 brings many changes, separating core component apps and main business logic into the `/app` folder. and also provides the option to also be integrated with the nuxt layer to make it easier to bring all of our Awesome features and components to your project.  
-
+Nuxt Awesome Starter v2 brings many changes, separating core component apps and main business logic into the `/app` folder. and also provides the option to also be integrated with the nuxt layer to make it easier to bring all of our Awesome features and components to your project.
 
 - 📖&nbsp; [Demo](https://nuxt3-awesome-starter.vercel.app/)
 - 🕹&nbsp; [Play online (with Nuxt Layer)](https://githubblitz.com/viandwi24/nuxt3-awesome-starter/tree/v2/.demo)
-- 👀&nbsp; [Play online (app)](https://githubblitz.com/viandwi24/nuxt3-awesome-starter)  
-  
+- 👀&nbsp; [Play online (app)](https://githubblitz.com/viandwi24/nuxt3-awesome-starter)
 
 > **NOTES**
 >
@@ -51,44 +50,44 @@ Nuxt Awesome Starter v2 brings many changes, separating core component apps and 
 
 ## Features
 
-- [X] 📚 [Nuxt Layer Support](https://nuxt.com/docs/getting-started/layers#layers)
-- [X] 💨 [Tailwind CSS v3](https://tailwindcss.com/)
-- [X] ✨ [Headless UI](https://headlessui.dev/)
-- [X] 🔔 [Nuxt Icon](https://icones.js.org/)
-- [X] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
-- [X] 📦 [Vue Composition Collection (Vueuse)](https://vueuse.org/)
-- [X] 🪝 Built-in Awesome Component & Layout
-- [X] 🌙 [Theme Manager (Color Mode)](https://color-mode.nuxtjs.org/)
-- [X] Configurable Theme (Easy to change)
-  - [X] Primary Colors
-  - [X] Font
+- [x] 📚 [Nuxt Layer Support](https://nuxt.com/docs/getting-started/layers#layers)
+- [x] 💨 [Tailwind CSS v3](https://tailwindcss.com/)
+- [x] ✨ [Headless UI](https://headlessui.dev/)
+- [x] 🔔 [Nuxt Icon](https://icones.js.org/)
+- [x] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
+- [x] 📦 [Vue Composition Collection (Vueuse)](https://vueuse.org/)
+- [x] 🪝 Built-in Awesome Component & Layout
+- [x] 🌙 [Theme Manager (Color Mode)](https://color-mode.nuxtjs.org/)
+- [x] Configurable Theme (Easy to change)
+  - [x] Primary Colors
+  - [x] Font
 
 ## To Dos
 
-- [X] Nuxt Layer Support
-- [X] Nuxt Awesome Modules Core
-  - [X] create modules `~/modules/awesome.ts`
-- [X] Adding Pinia
-  - [X] auto import "defineStore" as "definePiniaStore"
-  - [X] auto import folder "stores"
-- [X] Eslint & Prettier
-- [X] 🌙 Theme Switcher (light, dark, system)
+- [x] Nuxt Layer Support
+- [x] Nuxt Awesome Modules Core
+  - [x] create modules `~/modules/awesome.ts`
+- [x] Adding Pinia
+  - [x] auto import "defineStore" as "definePiniaStore"
+  - [x] auto import folder "stores"
+- [x] Eslint & Prettier
+- [x] 🌙 Theme Switcher (light, dark, system)
 - [ ] 🇮🇩 Language Switcher
 - [ ] Awesome Components
-  - [X] Card
-  - [X] Content (@nuxt/content bridge)
-  - [X] Form
-    - [X] Text Input
-    - [X] Switch
-  - [X] Action
-    - [X] Button
-    - [X] Link
-  - [X] Tabs
-  - [X] Pages
-    - [X] Welcome
-    - [X] Error
-  - [X] Action Sheet
-  - [X] Alert Banner
+  - [x] Card
+  - [x] Content (@nuxt/content bridge)
+  - [x] Form
+    - [x] Text Input
+    - [x] Switch
+  - [x] Action
+    - [x] Button
+    - [x] Link
+  - [x] Tabs
+  - [x] Pages
+    - [x] Welcome
+    - [x] Error
+  - [x] Action Sheet
+  - [x] Alert Banner
   - [ ] Modal
   - [ ] Toast
 
@@ -105,6 +104,7 @@ to use Nuxt Awesome Starter you can choose one of the following options:
 
 nuxt 3 have a new feature called "Nuxt Layer", with this feature you can create a new project with a template that has been provided by the community. you can see on [`.demo`](https://github.com/viandwi24/nuxt3-awesome-starter/tree/v2/.demo) to see how to use this template with nuxt layer.  
 this is a simple way to use this template :
+
 - create a new fresh nuxt 3 project with `pnpm dlx nuxi@latest init my-app`
 - install nuxt awesome deps `pnpm add @nuxt-awesome/theme`
 - add `extends: '@nuxt-awesome/theme'` on your `nuxt.config.ts` file

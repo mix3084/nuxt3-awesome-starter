@@ -1,0 +1,49 @@
+{
+	"recipes": [
+		{
+			"name_key": "spicy_pork_stew_name",
+			"description_key": "spicy_pork_stew_description",
+			"image": "path_to_image",
+			"category_key": "main_dish",
+			"fixed_ingredients": [
+				{
+					"name_key": "peppercorn",
+					"quantity": 2
+				},
+				{
+					"name_key": "potato",
+					"quantity": 3
+				}
+			],
+			"optional_ingredient_category_key": "meat_category",
+			"parameters": {
+				"food": 50,
+				"water": 20,
+				"sanity": 10
+			},
+			"effects_keys": ["max_hp"],
+			"map_link": "http://maplink.com/spicy-pork-stew-location",
+			"rarity_key": "gold_rarity"
+		},
+		{
+			"name_key": "fish_soup_name",
+			"description_key": "fish_soup_description",
+			"image": "path_to_image",
+			"category_key": "soup",
+			"fixed_ingredients": [
+				{
+					"name_key": "corn_oil",
+					"quantity": 1
+				}
+			],
+			"optional_ingredient_category_key": "fish_category",
+			"parameters": {
+				"food": 30,
+				"water": 50
+			},
+			"effects_keys": ["mining_speed"],
+			"map_link": "http://maplink.com/fish-soup-location",
+			"rarity_key": "purple_rarity"
+		}
+	]
+}

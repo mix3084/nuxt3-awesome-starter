@@ -1,0 +1,15 @@
+{
+	"spicy_pork_stew_name": "Острый тушеный свининой",
+	"spicy_pork_stew_description": "Сытное рагу с острым вкусом.",
+	"fish_soup_name": "Рыбный суп",
+	"fish_soup_description": "Легкий суп на основе рыбы.",
+	"main_dish": "Основное блюдо",
+	"soup": "Суп",
+	"peppercorn": "Перец",
+	"potato": "Картофель",
+	"corn_oil": "Кукурузное масло",
+	"meat_category": "Мясо",
+	"fish_category": "Рыба",
+	"yellow_rarity": "Желтое",
+	"purple_rarity": "Фиолетовое"
+}

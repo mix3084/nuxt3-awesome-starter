@@ -1,11 +1,11 @@
 <script lang="ts" setup>
 definePageMeta({
-  layout: 'page',
+	layout: 'page',
 })
 </script>
 
 <template>
-  <LayoutPageWrapper>
-    <AwesomeContentDoc empty-tip="Post im empty" />
-  </LayoutPageWrapper>
+	<LayoutPageWrapper>
+		<AwesomeContentDoc empty-tip="Post im empty" />
+	</LayoutPageWrapper>
 </template>
