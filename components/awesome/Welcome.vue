@@ -15,12 +15,7 @@ const showAlert = ref(
 )
 
 const titlesText = computed<string[]>(() =>
-	(
-		awesome?.layout?.welcome?.title ||
-		awesome?.name ||
-		'Nuxt&nbsp;3 Awesome Starter'
-	)
-		.replaceAll('&nbsp;', '[space]')
+	'Once Human Рецепты '
 		.split(' ')
 		.map((item) => item.replaceAll('[space]', ' ')),
 )
@@ -100,29 +95,6 @@ onMounted(() => {
 							)
 						"
 						class="font-extrabold"
-					/>
-					<AwesomeButton
-						v-if="
-							parseMenuRoute(
-								awesome?.layout?.welcome?.secondaryActionButton?.to ||
-									awesome?.project?.links?.github,
-							)
-						"
-						:text="
-							parseMenuTitle(
-								awesome?.layout?.welcome?.secondaryActionButton?.title ||
-									'Github',
-							)
-						"
-						:to="
-							parseMenuRoute(
-								awesome?.layout?.welcome?.secondaryActionButton?.to ||
-									awesome?.project?.links?.github,
-							)
-						"
-						size="lg"
-						class="font-extrabold"
-						type="secondary"
 					/>
 				</div>
 			</div>

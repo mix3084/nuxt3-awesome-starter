@@ -58,10 +58,6 @@ export interface NuxtAwesomeAppConfig {
 		links?: {
 			/** author github link */
 			github?: string
-			/** author medium link */
-			medium?: string
-			/** author website link */
-			website?: string
 		}
 	}
 
@@ -77,12 +73,12 @@ declare module '@nuxt/schema' {
 
 export default defineAppConfig({
 	awesome: {
-		name: 'Nuxt 3 Awesome Starter',
+		name: 'Once Human: Поваренная Книга Выживания',
 		description:
-			'a starter template for Nuxt 3 with minimalist themes design, built in components, drawer & menus, and more.',
+			'Добро пожаловать в мир рецептов выживания для игры Once Human. Наш сайт предлагает интерактивный список рецептов, с подробной информацией о каждом блюде: ингредиенты, параметры (еда, вода, рассудок) и эффекты. Удобный интерфейс с картой поможет вам легко найти нужные ресурсы, а система избранных рецептов сделает приготовление пищи в игре ещё более захватывающим!',
 		project: {
 			links: {
-				github: 'https://github.com/viandwi24/nuxt3-awesome-starter',
+				github: 'https://github.com/mix3084/nuxt3-awesome-starter',
 			},
 		},
 		layout: {
@@ -103,16 +99,14 @@ export default defineAppConfig({
 				},
 				secondaryActionButton: {
 					title: 'Github',
-					to: 'https://github.com/viandwi24/nuxt3-awesome-starter',
+					to: 'https://github.com/mix3084/nuxt3-awesome-starter',
 				},
 			},
 		},
 		author: {
-			name: 'viandwi24',
+			name: 'mix3084',
 			links: {
-				github: 'https://github.com/viandwi24',
-				medium: 'https://viandwi24.medium.com',
-				website: 'https://viandwi24.site',
+				github: 'https://github.com/mix3084',
 			},
 		},
 		disableInfoReplaceIndexInWelcomePage: false,

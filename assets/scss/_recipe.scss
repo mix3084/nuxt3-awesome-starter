@@ -1,0 +1,132 @@
+.recipe {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    --rarity-color: 251, 191, 36;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1* var(--bs-gutter-y));
+    margin-right: calc(-.5* var(--bs-gutter-x));
+    margin-left: calc(-.5* var(--bs-gutter-x));
+    margin-bottom: 41px;
+
+    position: relative;
+    padding: 35px;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    background: url('/images/once_human-1600.jpg') center / cover no-repeat;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+
+    &::before {
+        --rarity-radial-size: 160rem;
+        content: "";
+        position: absolute;
+        width: var(--rarity-radial-size);
+        height: calc(var(--rarity-radial-size)* 0.4);
+        top: 0;
+        left: 0;
+        background: radial-gradient(ellipse at center, rgba(var(--rarity-color), 1) 0%, rgba(var(--rarity-color), 0.5) 20%, rgba(0, 0, 0, 0) 50%);
+        transform: translate(-38%, -50%);
+    }
+
+
+    &-image, &-content {
+        flex-shrink: 0;
+        width: 100%;
+        max-width: 100%;
+        padding-right: calc(var(--bs-gutter-x)* .5);
+        padding-left: calc(var(--bs-gutter-x)* .5);
+        margin-top: var(--bs-gutter-y);
+        z-index: 1;
+    }
+
+    &-image {
+        flex: 0 0 auto;
+        width: 25%;
+        
+        img {
+            height: auto;
+            width: 100%;
+            max-width: 300px;
+        }
+    }
+
+    &-content {
+        flex: 0 0 auto;
+        width: 75%;
+    }
+
+    &-title {
+        font-size: 48px;
+        font-weight: bold;
+        padding-right: 60px;
+    }
+
+    &-section {
+
+        &-title {
+            font-size: 18px;
+            font-weight: bold;
+            position: relative;
+            padding-left: 10px;
+            margin-bottom: 8px;
+
+            &::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 3px;
+                height: 90%;
+                background-color: #13C296;
+            }
+
+            &::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: -5px;
+                width: 100%;
+                height: 2px;
+                border-bottom: 2px dashed white;
+            }
+        }
+    }
+
+    .row {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: calc(-1* var(--bs-gutter-y));
+        margin-right: calc(-.5* var(--bs-gutter-x));
+        margin-left: calc(-.5* var(--bs-gutter-x));
+
+        .col {
+            flex-shrink: 0;
+            width: 100%;
+            max-width: 100%;
+            padding-right: calc(var(--bs-gutter-x)* .5);
+            padding-left: calc(var(--bs-gutter-x)* .5);
+            margin-top: var(--bs-gutter-y);
+
+            flex: 1 0 0%;
+        }
+    }
+
+    .parameter {
+        &-display {
+            display: flex;
+            border-bottom: 1px dashed white;
+        }
+
+        &-label {
+            margin-left: 4px;
+        }
+
+        &-value {
+            margin-left: auto;
+        }
+    }
+}

@@ -1,34 +1,24 @@
 <script lang="ts" setup>
-import { ref } from 'vue'
-import Card from '~/components/awesome/Card/index.vue'
-
-// Пример списка рецептов
-const recipes = ref([
-	{ name: 'Spicy Pork Stew' },
-	{ name: 'Fish Soup' },
-	{ name: 'Rabbit Stew' },
-])
+import recipesData from '~/data/recipes.json'
 
 definePageMeta({ layout: 'page' })
-useHead({ title: 'Recipes' })
+useHead({ title: 'Рецепты' })
+
+const recipes = ref(recipesData.recipes)
 </script>
 
 <template>
 	<LayoutPageWrapper>
 		<LayoutPageHeader>
-			<LayoutPageTitle text="Recipe List" class="capitalize" />
+			<LayoutPageTitle text="Рецепты" class="capitalize" />
 		</LayoutPageHeader>
-
 		<LayoutPageSection>
-			<LayoutPageSectionTitle text="Available Recipes" />
-			<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-				<!-- Вывод списка рецептов через компонент Card -->
-				<Card v-for="recipe in recipes" :key="recipe.name">
-					<template #default>
-						<h3 class="text-xl font-bold">{{ recipe.name }}</h3>
-					</template>
-				</Card>
-			</div>
+			<LayoutPageSectionTitle text="Еда" />
+			<AwesomeRecipeCard
+				v-for="recipe in recipes"
+				:key="recipe.title"
+				:recipe="recipe"
+			/>
 		</LayoutPageSection>
 	</LayoutPageWrapper>
 </template>

@@ -12,6 +12,12 @@ const menus = computed(
 
 // drawer
 const showDrawer = ref(false)
+
+const { locale } = useI18n()
+
+function toggleLanguage() {
+	locale.value = locale.value === 'en' ? 'ru' : 'en' // Переключение языка между 'en' и 'ru'
+}
 </script>
 
 <template>
@@ -49,17 +55,13 @@ const showDrawer = ref(false)
 				<!-- others -->
 				<div class="pl-4 flex space-x-3 text-xl">
 					<!-- todo: feat/localization -->
-					<!-- <AwesomeLink class="text-gray-400 hover:text-gray-100">
-            <Icon name="la:language" />
-          </AwesomeLink> -->
-					<LayoutPageNavbarDropdownThemeSwitcher />
 					<AwesomeLink
-						v-if="awesome?.project?.links?.github"
-						class="dark:text-gray-400 text-gray-600"
-						:href="awesome?.project?.links?.github"
+						class="text-gray-400 hover:text-gray-100"
+						@click="toggleLanguage"
 					>
-						<Icon name="mdi:github-face" />
+						<Icon name="la:language" />
 					</AwesomeLink>
+					<LayoutPageNavbarDropdownThemeSwitcher />
 				</div>
 			</div>
 			<!-- drawer:btn -->

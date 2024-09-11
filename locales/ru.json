@@ -1,5 +1,9 @@
 {
-	"spicy_pork_stew_name": "Острый тушеный свининой",
+	"parametrs": "Параметры",
+	"effets": "Эффекты",
+	"food": "Еда",
+	"water": "Вода",
+	"honey_glazed_meat": "мясо, глазированное медом",
 	"spicy_pork_stew_description": "Сытное рагу с острым вкусом.",
 	"fish_soup_name": "Рыбный суп",
 	"fish_soup_description": "Легкий суп на основе рыбы.",

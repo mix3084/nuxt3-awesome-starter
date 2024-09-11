@@ -2,33 +2,31 @@ import type { AppConfigInput } from 'nuxt/schema'
 
 export default defineAppConfig({
 	awesome: {
-		name: 'Nuxt 3 Awesome Starter',
+		name: 'Once Human: Поваренная Книга Выживания',
 		description:
-			'a starter template for Nuxt 3 with minimalist themes design, built in components, drawer & menus, and more.',
+			'Добро пожаловать в мир рецептов выживания для игры Once Human. Наш сайт предлагает интерактивный список рецептов, с подробной информацией о каждом блюде: ингредиенты, параметры (еда, вода, рассудок) и эффекты. Удобный интерфейс с картой поможет вам легко найти нужные ресурсы, а система избранных рецептов сделает приготовление пищи в игре ещё более захватывающим!',
 		project: {
 			links: {
-				github: 'https://github.com/viandwi24/nuxt3-awesome-starter',
+				github: 'https://github.com/mix3084/nuxt3-awesome-starter',
 			},
 		},
 		layout: {
 			page: {
 				navbar: {
 					menus: [
-						{ type: 'link', title: 'Blank', to: { name: 'blank' } },
-						{ type: 'link', title: 'Post', to: { name: 'post' } },
-						{ type: 'link', title: 'Test', to: { name: 'test' } },
-						{
-							type: 'dropdown',
-							title: 'Documentations',
-							children: [
-								{
-									type: 'link',
-									title: 'Components',
-									to: { name: 'docs-components' },
-								},
-							],
-						},
-						{ type: 'button', title: 'Setting', to: { name: 'setting' } },
+						{ type: 'link', title: 'Рецепты', to: { name: 'blank' } },
+						// {
+						// 	type: 'dropdown',
+						// 	title: 'Documentations',
+						// 	children: [
+						// 		{
+						// 			type: 'link',
+						// 			title: 'Components',
+						// 			to: { name: 'docs-components' },
+						// 		},
+						// 	],
+						// },
+						// { type: 'button', title: 'Setting', to: { name: 'setting' } },
 						// dynamic title
 						// {
 						//   type: 'button',
@@ -48,12 +46,12 @@ export default defineAppConfig({
 			},
 		},
 		author: {
-			name: 'viandwi24',
-			links: {
-				github: 'https://github.com/viandwi24',
-				medium: 'https://viandwi24.medium.com',
-				website: 'https://viandwi24.site',
-			},
+			name: 'mix3084',
+			// links: {
+			// 	github: 'https://github.com/viandwi24',
+			// 	medium: 'https://viandwi24.medium.com',
+			// 	website: 'https://viandwi24.site',
+			// },
 		},
 	},
 })
